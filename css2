@@ -1,0 +1,584 @@
+
+  *{
+    padding:20px;
+    background-image: url("back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+   display: flex;
+   gap: 200px;
+   background: transparent;
+   z-index: 4;
+   
+   
+   
+}
+.navbar a{
+    text-decoration: none;
+    background: transparent;
+    font-size: 100px;
+    padding: 20px 80px 20px 80px;
+    color: blue;
+    position: relative;
+    font-family: cursive;
+    margin-right: 30px;
+}
+
+
+.navbar a:hover::after {
+    background-color: blue;
+    left: 0px;
+    bottom: -5px;
+    width: 90%;
+    height: 15px;
+    content: "";
+    position: absolute;
+    border-radius: 6px;
+}
+.navbar .search, .navbar .search input,.navbar .search button ,.navbar .search button i{
+    background: transparent;
+}
+.search{
+    width: 1000px;
+    height: 80px;
+    border: none;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 15px 15px blue ;
+    gap: 40px;
+    
+    
+
+}
+
+.search input{
+    height: 90px;
+    width: 800px;
+    border:none;
+
+    
+    
+    font-size: 70px;
+
+}
+
+.search input:focus{ outline: none;
+border: none;
+cursor: pointer;}
+
+.search button i{
+    height: 70px;
+    width: 80px;
+    
+    font-size: 100px;
+    cursor:  pointer;
+    padding-left: 15px;
+   
+    
+
+    
+
+}
+.search button{
+    border: none;
+    outline: none;
+}
+
+.container{
+    background: transparent;
+    height: 98vh;
+    width: 98vw;
+    position: relative;
+    margin: auto;
+    
+    
+}
+
+  .login h2,.login,.tag{
+        background: transparent;
+    }
+   
+   .login{
+    position: absolute;
+    z-index: 3;
+  
+    top: 5%;
+    width: 40%;
+    right: 75%;
+    height: 500px;
+    transform: translate(50%,50%);
+   
+   }
+   .login img{
+    background: transparent;
+    float: left;
+height: 500px;
+width: 500px;
+clip-path: circle(50% at 50% 50%);
+
+
+margin-right: 70px;
+
+
+
+   }
+   h2{
+    font-size: 100px;
+    color: blue;
+    font-family: cursive;
+    
+    
+    
+    position: relative;
+ 
+   }
+
+   h1,p{background: transparent;}
+   h1{
+    font-size: 80px;
+    color: blue;
+    left:  10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   p{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+.tag{
+    transform: translateY(65%);
+    background: transparent;
+}
+.tag p{
+    width: 40%;
+}
+.icons,.icons a,.icons a i{
+    background: transparent;
+}
+
+
+.icons{
+    position: fixed;
+    position: relative;
+}
+
+
+
+
+.icons a i{
+color: blue;
+font-size: 100px;
+}
+
+.icons a i hover{
+    cursor: pointer;
+   
+}
+
+/*.login{
+    position: absolute;
+    top: 5%;
+    width: 40%;
+    right: 75%;
+    height: 500px;
+    transform: translate(50%,50%);
+   
+   } */
+   
+ .loginform{
+position: absolute;
+top: 3%;
+right: 0;
+width: calc(100% , -50%);
+background: transparent;
+height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.loginform label, .loginform a ,.loginform h3{
+    font-size: 50px;
+    color: black;
+    padding : 200px;
+    margin: 20px;
+    background: transparent;
+    font-family: cursive;
+  
+}
+  
+
+
+.loginform button{
+font-size: 80px;
+box-shadow: 10px;
+text-align: center;
+background: transparent;
+color: black;
+
+
+}
+.input-box input{ 
+    width: 80%;
+    font-size: 80px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: 0px 9px 0px 0px blue;
+    margin-left: 50px;
+     cursor: pointer;
+     
+
+}
+.input-box1 #box{
+    height: 70px;
+    width: 70px;
+
+}
+
+
+.input-box1{
+    background: transparent;
+}
+.input-box{
+    background: transparent;
+    position: relative;
+   
+}
+.input-box .icon{
+    background: transparent;
+    font-size: 100px;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    
+    
+  
+}
+
+.input-box .icon i{
+    background: transparent;
+}
+
+
+.input-box button{
+    width: 80%;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 150px;
+    box-shadow: 8px 8px 8px 8px  blue;
+    border:  none;
+    outline: none;
+    font-size: 50px;
+    
+} 
+.loginform h3{
+    font-size: 100px;
+    margin-left: 350px;
+    font-family: cursive;
+    color: blue;}
+    
+    
+    .data p{ font-size: 50px;
+        font-family: cursive;
+    
+    }
+    .data{
+        background: transparent;
+        
+        text-align: center;
+    }
+    
+    .data .last{
+        text-align: left;
+        margin-left: -200px;
+    }
+    .loginform form{
+        background: transparent;
+    }
+    
+
+.container .register{
+    background: transparent;
+}
+
+
+.forms .register{
+    transform: translateX(2600px);
+    
+    width: 33%;
+    height: 100%;
+    top: 1%;
+    position: absolute;
+    background: transparent;
+}
+
+
+.register label, .register a ,.register h3{
+    font-size: 50px;
+    color: black;
+    padding : 200px;
+    margin: 20px;
+    background: transparent;
+    font-family: cursive;
+  
+}
+
+
+
+
+.register label{
+    margin-top: 40px;
+}
+  
+.register button{
+    font-size: 50px;
+    box-shadow: 10px;
+    text-align: center;
+    background: transparent;
+    color:black;
+    background: transparent;
+  
+
+    
+    }
+
+    
+
+
+
+
+   .register .input-box input{ 
+        width: 80%;
+        font-size: 80px;
+        background: transparent;
+        border: none;
+        outline: none;
+        box-shadow: 0px 9px 0px 0px blue;
+        margin-left: 50px;
+         cursor: pointer;
+         
+    
+    }
+
+    .register .input-box1 #box{
+        height: 70px;
+        width: 70px;
+        background: transparent;
+    }
+    .register.input-box1 label{
+        padding: 30px;
+        background: transparent;
+    }
+    
+    .register .input-box1{
+        background: transparent;
+    }
+    .register .input-box{
+        background: transparent;
+        position: relative;
+        
+       
+    }
+    .register .input-box .icon{
+        background: transparent;
+        font-size: 100px;
+        position: absolute;
+        top: 60px;
+        right: 100px;
+        
+        
+      
+    }
+
+    .register.input-box .icon i{
+        background: transparent;
+    }
+    
+    
+    .register.input-box button{
+        width: 80%;
+        padding: 20px;
+        margin-top: 150px;
+        margin-left: 150px;
+        box-shadow: 10px 10px 20px 20px blue;
+        border:  none;
+        outline: none;
+        font-size: 50px;
+        background: transparent;
+        
+    } 
+
+    .register h3{
+        font-size: 100px;
+        margin-left: 350px;
+        font-family: cursive;
+        color: blue;
+    background: transparent;}
+        
+        
+        .register .data2 p{ font-size: 50px;
+            font-family: cursive;
+            background: transparent;
+        
+        }
+        .data2{
+            background: transparent;
+            
+            text-align: center;
+        }
+        
+        .data2 .last2{
+            text-align: left;
+            margin-left: -200px;
+            background: transparent;
+        }
+        .register form{
+            background: transparent;
+        }
+    
+   .navbar{
+    position: fixed;
+   }
+
+.forms .register{
+    transition: transform 6s ease;
+    transition-delay: 2s;
+    transform: translateX(3000px);
+}
+
+.forms.active.register{
+    transform: translateX(0PX);
+    transition-delay: 3s;
+}
+
+
+
+.forms .loginform{
+    transform: translateX(0px);
+    transition: transform 6s ease;
+    transition-delay: 3s;
+}
+
+.forms.active.loginform{
+    transform: translateX(3000px);
+    transition-delay: 2s;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    overflow: hidn;
+}
+
+
+
+
+.forms{
+    
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    right: 80%;
+    left: 50%;
+    position: absolute;
+   background: transparent;
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+
+.forms .loginform{
+    width: 100%;
+    height: 100%;
+   
+    justify-content: flex-start;
+    align-items:baseline;
+    background: transparent;
+   
+    position: absolute;
+    top: 0%;
+   left: 5%;
+   
+  
+    
+   
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    
+    
+    
+    
+    
+    
+   
+
+
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+       
+              
