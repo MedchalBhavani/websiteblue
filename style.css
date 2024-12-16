@@ -383,7 +383,7 @@ color: black;
 }
 .forms.active.loginform{
     display: none;
-    transform: translateX(-1900px);
+    transform: translateX(-1600px);
 }
   
 
